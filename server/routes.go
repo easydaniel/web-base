@@ -30,7 +30,7 @@ func main() {
 
 	api := router.Group("/api")
 
-	api.GET("/name/:name", UserControllerGET)
+	api.GET("/user/:name", UserControllerGET)
 
 	router.StaticFile("/", "../client/dist/index.html")
 	router.Static("/assets", "../client/dist")
