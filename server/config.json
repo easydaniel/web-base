@@ -1,0 +1,8 @@
+{
+  "PORT": "3000",
+  "DEPS": [
+    "github.com/gin-gonic/gin",
+    "github.com/fatih/color"
+  ],
+  "GOPATH": "`pwd`"
+}

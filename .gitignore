@@ -1,0 +1,11 @@
+client/.DS_STORE
+client/*.log
+
+client/node_modules
+
+client/dist
+client/coverage
+
+server/src
+server/bin
+server/pkg
